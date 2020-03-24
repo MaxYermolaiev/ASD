@@ -1,0 +1,29 @@
+.general{
+display: grid;
+   grid-template-areas:
+  "h h h"
+  "n m m"
+  "f f f";
+   grid-template-rows: 3fr 10fr;
+    grid-template-columns: 3fr 10fr 1fr;
+    grid-gap: 10px;
+
+  }
+  .general{width: 100%;  }
+  .header {
+    background-color: #444444;
+    grid-area: h;
+  }
+  .header img{width: 60px;}
+  .nav {
+    background-color: #97e41a;  
+    grid-area: n;
+  }
+  .Main_content {
+    background-color: #e41a1a;  
+    grid-area: m;
+  }
+  .footer {
+    grid-area: f;
+    background-color: #1a9ae4;  
+  }
